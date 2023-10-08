@@ -11,6 +11,8 @@
 		637312C92AD01A010033320D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637312C82AD01A010033320D /* ContentView.swift */; };
 		637312CB2AD01A020033320D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 637312CA2AD01A020033320D /* Assets.xcassets */; };
 		637312CE2AD01A020033320D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 637312CD2AD01A020033320D /* Preview Assets.xcassets */; };
+		637312D52AD024210033320D /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637312D42AD024210033320D /* GameView.swift */; };
+		637312D72AD024400033320D /* GameRulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637312D62AD024400033320D /* GameRulesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		637312C82AD01A010033320D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		637312CA2AD01A020033320D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		637312CD2AD01A020033320D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		637312D42AD024210033320D /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		637312D62AD024400033320D /* GameRulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRulesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				637312C82AD01A010033320D /* ContentView.swift */,
 				637312CA2AD01A020033320D /* Assets.xcassets */,
 				637312CC2AD01A020033320D /* Preview Content */,
+				637312D42AD024210033320D /* GameView.swift */,
+				637312D62AD024400033320D /* GameRulesView.swift */,
 			);
 			path = "Gates of Olympus";
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				637312C92AD01A010033320D /* ContentView.swift in Sources */,
+				637312D52AD024210033320D /* GameView.swift in Sources */,
+				637312D72AD024400033320D /* GameRulesView.swift in Sources */,
 				637312C72AD01A010033320D /* Gates_of_OlympusApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,7 +205,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +262,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -269,6 +277,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Gates of Olympus/Preview Content\"";
@@ -298,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Gates of Olympus/Preview Content\"";
